@@ -16,7 +16,7 @@ $nama_pasien = "";
 $domisili = "";
 $kontak_darurat = "";
 $pesan = "";
-$is_edit = false; // Penanda apakah sedang dalam mode edit
+$is_edit = false; // Penanda apakah sedang dalam  mode edit
 $id_lama = "";    // Menyimpan ID lama jika rekam medis diubah
 
 // ==========================================
@@ -115,15 +115,17 @@ if (isset($_POST['submit'])) {
             Sistem Informasi Klinik Rawat Jalan
         </h1> 
     </div>
-
-    <div class="nav">
+    
+   <div class="nav">
         <ul>
             <li><a href="beranda.php">Beranda</a></li>
             <li><a href="manajemen_pasien.php">Manajemen Pasien</a></li>
             <li><a href="dokter.html">Data Dokter</a></li>
             <li><a href="farmasi.html">Katalog Farmasi</a></li>
+            <li><a href="poli_klinik.php">Ruang Poliklinik</a></li>
         </ul>
     </div>
+    
     
     <h2><?php echo $is_edit ? "Form Edit Data Pasien" : "Formulir Tambah Data Pasien"; ?></h2>
     

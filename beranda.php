@@ -18,15 +18,16 @@
     </div>
     
     <!-- Bagian Navigasi -->
-    <div class="nav">
-        <ul>
-            <!-- Link beranda sudah diubah menjadi .php -->
-            <li><a href="beranda.php">Beranda</a></li>
-            <li><a href="manajemen_pasien.php">Manajemen Pasien</a></li>
-            <li><a href="dokter.html">Data Dokter</a></li>
-            <li><a href="farmasi.html">Katalog Farmasi</a></li>
-        </ul>
-    </div>
+<!-- Cari bagian ini di file-file web Anda -->
+<div class="nav">
+    <ul>
+        <li><a href="beranda.php">Beranda</a></li>
+        <li><a href="manajemen_pasien.php">Manajemen Pasien</a></li>
+        <li><a href="dokter.html">Data Dokter</a></li>
+        <li><a href="farmasi.html">Katalog Farmasi</a></li>
+        <li><a href="poli_klinik.php">Ruang Poliklinik</a></li>
+    </ul>
+</div>
 
     <!-- Bagian Konten Utama Beranda -->
     <div class="main-content">
